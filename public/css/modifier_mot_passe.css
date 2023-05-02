@@ -1,0 +1,62 @@
+
+:root{
+    --green:#156e1c;
+  }
+
+  *{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+  }
+
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+
+  section{
+    padding:0;
+  }
+
+  .contact .row2{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .contact .row2 form{
+    flex:1 1 40rem;
+    padding:0.5rem;
+  }
+
+
+  .contact .row2 form .inputBox{
+    position: relative;
+  }
+
+  .contact .row2 form .inputBox input{
+    width: 75%;
+    margin:1.5rem 0;
+    padding:.7rem 1rem;
+    font-size: 1.7rem;
+    color:rgb(92, 86, 86);
+    border:.1rem solid rgba(0,0,0,.2);
+  }
+  .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    width: 80%;
+    padding:.7rem 2.5rem;
+    font-size: 1.7rem;
+    color:var(--green);
+    border:.2rem solid var(--green);
+
+  }
+
+  .btn:hover{
+    background:var(--green);
+    color:#fff;
+  }

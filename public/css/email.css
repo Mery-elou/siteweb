@@ -1,0 +1,135 @@
+html{
+    background-size: cover;
+    min-height: 100%;
+}
+
+body{
+	background-color: transparent;
+}
+
+#registration-form .logo img{
+	  width: 40%;
+	  margin-bottom: 40px;
+
+}
+
+#registration-form #email, #registration-form #pwd,#registration-form #mail, #registration-form #pawd{
+	width: 100%;
+}
+.container{
+    padding: 20px 0px;
+    margin-top: 0;
+        }
+ #pfois{
+    color: darkgreen;
+     margin-top: 20px ;
+     margin-bottom: 0;
+    text-decoration: overline;
+ }
+
+
+
+#registration-form{
+	max-width: 600px;
+	margin: 80px auto;
+
+}
+
+#registration-form .site{
+	display: inline-block;
+	padding: 10px;
+
+
+}
+#registration-form .btn{
+	width: 65%;
+	margin-top: 20px;
+}
+
+
+
+#registration-form #username,#registration-form #nom,#registration-form #prenom,#registration-form #mail,#registration-form #pawd,#registration-form #password-confirm,#registration-form #password{
+	width: 100%;
+}
+
+
+#registration-form .form-control {
+	width: 65%;
+	padding: 12px 20px;
+
+}
+
+
+@media screen and (max-width: 700px){
+
+	#registration-form .form-control{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#registration-form .frm{
+		width: 100%;
+	}
+
+	#registration-form h1{
+		text-align: center;
+	}
+
+	#registration-form .btn{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+        margin: 5%;
+    }
+
+    #scroll-top{
+        bottom:3rem;
+    }
+
+}
+
+@media (max-width:788px){
+
+
+    html{
+        margin: 5%;
+        font-size: 40%;
+    }
+	@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+        margin: 5%;
+    }
+
+    #scroll-top{
+        bottom:3rem;
+    }
+
+}
+
+@media (max-width:788px){
+
+
+    html{
+        margin: 5%;
+        font-size: 40%;
+    }
+
+
+    #scroll-top{
+        bottom:3rem;
+    }
+}
+
+    #scroll-top{
+        bottom:3rem;
+    }
+}

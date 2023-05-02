@@ -1,0 +1,55 @@
+:root{
+    --green:#b48037;
+}
+header{
+    padding-top: 3%;
+    font-size: x-small;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.75rem 10%;
+    background:#ffffff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+}
+
+
+header .logo img{
+    height:3rem;
+   
+}
+
+header .navbar a{
+    text-decoration: none;
+    font-size: 2em ;
+    color:rgb(15, 15, 15);
+    margin-left: 5rem;
+}
+/*si le hover dans le lien sera green*/
+header .navbar a:hover{
+    color:var(--green);
+}
+
+html{
+    padding-top: 2%;
+}
+@media (max-width:991px){
+
+html {
+    font-size:10%;
+    margin: 5%;
+}
+}
+@media (max-width:788px){
+html {
+    margin: 5%;
+    font-size: 50%;
+    padding-top: 30px;
+}
+#scroll-top{
+    bottom:3rem;
+ }
+}
